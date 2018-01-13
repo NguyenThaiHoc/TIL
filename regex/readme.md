@@ -20,9 +20,19 @@ Xuống dòng
 Số
 
 `
+/\D/
+`
+Ký tự không phải là số
+
+`
 /\w/
 `
 Ký tự số và chữ
+
+`
+/\W/
+`
+Ký tự không phải là số và chữ
 
 `
 /\s/
@@ -35,9 +45,30 @@ Ký tự dấu cách
 Ký tự không phải là dấu cách
 
 `
+/\t/
+`
+Tab
+
+`
+/\r/
+`
+Xuống dòng
+
+
+`
+/\v/
+`
+Tab dọc
+
+`
 /\b/
 `
-Ký tự không phải là chữ và số
+Ký tự không phải là chữ và số bao chữ và Số
+
+`
+/\B/
+`
+là ký tự chữ số bao khối ký tự là chữ số
 
 `
 /\bx\b/
